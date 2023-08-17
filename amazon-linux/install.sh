@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo yum update -y
-yum install curl libunwind libicu libcurl openssl libuuid.x86_64 wget tar gzip --skip-broken
+sudo yum install curl libunwind libicu libcurl openssl libuuid.x86_64 wget tar gzip --skip-broken
 wget https://raw.githubusercontent.com/PowerShell/PowerShell/master/docker/InstallTarballPackage.sh
 chmod +x InstallTarballPackage.sh
 sudo ./InstallTarballPackage.sh 7.2.7 powershell-7.2.7-linux-x64.tar.gz
