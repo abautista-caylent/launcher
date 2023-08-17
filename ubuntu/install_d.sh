@@ -13,12 +13,12 @@ cat << "EOF"
            | $$  | $$\  $$$  \  $$$/  | $$  | $$| $$\  $$ | $$            | $$  | $$   | $$  | $$  | $$| $$\  $ | $$  | $$  | $$    $$
           /$$$$$$| $$ \  $$   \  $/   |  $$$$$$/| $$ \  $$| $$$$$$$$      | $$  | $$   | $$  |  $$$$$$/| $$ \/  | $$ /$$$$$$|  $$$$$$/
          |______/|__/  \__/    \_/     \______/ |__/  \__/|________/      |__/  |__/   |__/   \______/ |__/     |__/|______/ \______/
-
+                                                                                                                     Ubuntu
 EOF
 echo
-echo "         LOADING2 . . ."
+echo "         Powered by Caylent"
 echo
-echo "         Please wait, this could take a few minutes"
+echo "         Please wait, this could take a few minutes..."
 echo 
 echo
 pwsh -Command "IEX (IWR 'https://raw.githubusercontent.com/redcanaryco/invoke-atomicredteam/master/install-atomicredteam.ps1' -UseBasicParsing); Install-AtomicRedTeam -getAtomics" -Force
