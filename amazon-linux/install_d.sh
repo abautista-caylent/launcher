@@ -28,7 +28,7 @@ echo
 echo
 echo "     USER ACTION REQUIRED:"
 echo
-echo "     Please execute:                Import-Module '/AtomicRedTeam/invoke-atomicredteam/Invoke-AtomicRedTeam.psd1' -Force"
+echo "     Please execute:                Import-Module '~/AtomicRedTeam/invoke-atomicredteam/Invoke-AtomicRedTeam.psd1' -Force"
 echo
 echo
 pwsh
